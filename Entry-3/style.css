@@ -1,0 +1,116 @@
+
+body{
+    background-color: rgb(85, 111, 71);
+    color: aliceblue;
+    padding:15px;
+}
+
+
+ul{
+    text-align: center;
+}
+html, body, .title {
+    height: 100%;
+}
+div.title{
+    font-size: 200px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.subtitle{
+    font-size:30px;
+    font-family:'Times New Roman', Times, serif;
+}
+
+div.snakeplant1{
+    width: 700px;
+    height: auto;
+    float:right;
+    justify-content:center;
+    align-items:center;
+}
+.container{
+    width: 600px;
+    margin: 20px;
+    float:left;
+}
+
+.header-one{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 70px;
+    text-align: left;
+}
+.origins{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 20px;
+    text-align:left;
+}
+
+
+
+
+.part2{
+    clear:right;
+    margin-top: 50px;
+}
+.container2{
+    width: 600px;
+    margin: 20px;
+    float:right;
+}
+.header-two{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 70px;
+    float:right;
+    text-align: right;
+}
+
+.watering{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 20px;
+    text-align:right;
+}
+.tips{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: left;
+    list-style-type: circle;
+    margin-top: 35px;
+    font-size:15px;
+}
+.snakeplant2{
+    width: 700px;
+    height: auto;
+    float:left;
+    justify-content:center;
+    align-items:center;
+    margin-top:7%;
+}
+.variations{
+    clear:both;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 70px;
+    text-align:center;
+}
+.box{
+    margin: 0;
+    padding:0;
+
+}
+.image-container img{
+    width: 100%;
+    height: 100%; 
+    object-fit:cover;
+   
+}
+.image-container{
+    justify-content: center; 
+    align-items: center; 
+    display:flex;
+    margin-left:auto;
+    margin-right:auto;
+    width:300px; 
+    height:400px;
+}
