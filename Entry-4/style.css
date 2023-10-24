@@ -3,6 +3,7 @@ body{
     background-color: rgb(208, 219, 203);
     color: rgb(0, 22, 84);
     padding:15px;
+    font-family:'Times New Roman', Times, serif;
 }
 .outer-headings{
     height:100vh;
@@ -10,16 +11,16 @@ body{
     flex-direction:column;
     justify-content:center;
     align-items:left;
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
   }
-  .h1{
-    font-size:150px;
+  .outer-headings h1{
+    font-size:65px;
   }
   .inner-headings{
     border:0px solid #ddd;
     height:150px;
     line-height:150px;
-    font-size:135px;
+    font-size:145px;
     text-transform:uppercase;
     overflow:hidden;
   }
@@ -39,22 +40,22 @@ body{
       top:0;
     }
     25%{
-      top:-100px;
+      top:-150px;
     }
     45%{
       top:-150px;
     }
     50%{
-      top:-200px;
+      top:-300px;
     }
     70%{
-      top:-250px;
+      top:-300px;
     }
     75%{
-      top:-3000px;
+      top:-450px;
     }
     95%{
-      top:-300px;
+      top:-450px;
     }
   }
 
@@ -64,7 +65,6 @@ html, body, .title {
 }
 div.title{
     font-size: 200px;
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-weight: bold;
     display: flex;
     align-items: center;
@@ -74,6 +74,12 @@ div.title{
 .hr{
     border-top: 1px solid  rgb(0, 22, 84);
 }
+.down-arrow{
+    position:absolute;
+    width:45px;
+    bottom:0;
+    right:20px;
+}
 .origins-container{
     height:100vh;
     margin: 55px;
@@ -82,12 +88,11 @@ div.title{
 }
 
 .origins-container h1{
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 100px;
     text-align: center;
 }
 .origins-container p{
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family:'Times New Roman', Times, serif;
     font-size: 40px;
     text-align:center;
 }
@@ -118,14 +123,14 @@ div.inchplant{
 
 
 .header-two{
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 70px;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 100px;
     text-align: center;
     position:sticky;
     margin-bottom:50px;
 }
 .sunlight{
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family:'Times New Roman', Times, serif;
     font-size:30px;
     text-align:right;
     margin-left:150px;
@@ -133,7 +138,7 @@ div.inchplant{
     margin-bottom:50px;
 }
 .sunlight-2{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family:'Times New Roman', Times, serif;
     font-size: 30px;
     font-style:italic;
     text-align:left;
@@ -142,7 +147,7 @@ div.inchplant{
     margin-bottom:50px;
 }
 .watering{
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family:'Times New Roman', Times, serif;
     font-size:30px;
     text-align:right;
     margin-left:150px;
@@ -150,7 +155,7 @@ div.inchplant{
     margin-bottom:50px;
 }
 .watering-2{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Times New Roman', Times, serif;
     font-size: 30px;
     font-style:italic;
     text-align:left;
@@ -161,8 +166,8 @@ div.inchplant{
 
 
 .header-three{
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 70px;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 100px;
     text-align: center;
     margin-bottom:50px;
     margin-top:50px;

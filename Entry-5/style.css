@@ -1,0 +1,162 @@
+
+body{
+    background-color:rgb(208, 219, 203);
+    color: rgb(0, 22, 84);
+    font-family: 'Times New Roman', Times, serif;
+}
+.title{
+    font-size:200px;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+    text-align:center;
+    display:flex;
+    color:rgb(0, 22, 84);
+    background-color:rgb(208, 219, 203); 
+}
+.down-arrow{
+    position:absolute;
+    width:45px;
+    bottom:0;
+    right:20px;
+}
+.intro-text{
+    clear:both;
+    font-size:55px;
+    text-align:center;
+    width:600px;
+}
+.intro-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color:rgb(208, 219, 203); 
+}
+.container{
+    width: 600px;
+    margin-left: 100px;
+    float:left;
+
+}
+.monsterra{
+    width: auto;
+    height: 500px;
+    float:right;
+    justify-content:center;
+    align-items:center;
+    margin-right:100px;
+    border-radius:25px;
+}
+
+.header-one{
+    font-size: 70px;
+    text-align: left;
+}
+.cortisol{
+    font-size: 30px;
+    text-align: left;
+}
+
+/*section 2*/
+
+.container-2{
+    width: 600px;
+    margin-right: 100px;
+    float:right;
+    clear:right;
+    margin-top: 50px;
+
+}
+.snake-plant{
+    width: auto;
+    height: 450px;
+    float:left;
+    justify-content:center;
+    align-items:center;
+    border-radius:25px;
+    clear:left;
+    margin-top:50px;
+    margin-left:100px;
+}
+
+.header-two{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 70px;
+    float:right;
+    text-align: right;
+
+}
+.therapy{
+    font-size: 30px;
+    text-align: right;
+    clear:both;
+    margin-bottom:150px;
+}
+
+.last-container{
+    margin-top:150px;
+}
+.experiment{
+    clear:both;
+    text-align: center;
+    font-size:45px;
+    margin:70px;
+    top:200px;
+    font-style:oblique;
+}
+
+.carousel-container {
+    position: relative;
+    overflow: hidden;
+    left:35%;
+    width: 400px; 
+    margin: 20px;
+  }
+  
+  .carousel {
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+  }
+  
+  .carousel-inner {
+    display: flex;
+    transition: transform 0.3s ease;
+  }
+  
+  .carousel img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .carousel-prev,
+  .carousel-next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    padding: 5px 10px;
+    font-size: 20px;
+    z-index: 1;
+  }
+  
+  .carousel-prev {
+    left: 0;
+  }
+  
+  .carousel-next {
+    right: 0;
+  }
+
+.experiment-end{
+    text-align: center;
+    font-size:45px;
+    margin:70px;
+    font-style:oblique;
+}
+  

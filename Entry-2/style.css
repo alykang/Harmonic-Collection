@@ -7,21 +7,65 @@ p {
 }
 
 body {
-    background-color: #c2dcc2;
+    background-color:rgb(208, 219, 203);
   }
   
-  h1{
-    color: green;
-    font-size: 2.5em;
-    font-family: 'Times New Roman', Times, serif;
-    text-align:center;
+  .outer-headings{
+    height:100vh;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:left;
+    font-family:'Times New Roman', Times, serif;
+    color:rgb(0, 22, 84);
+}
+.outer-headings h1{
+    font-size:65px;
+}
+.inner-headings{
+    border:0px solid #ddd;
+    height:150px;
+    line-height:150px;
+    font-size:125px;
+    text-transform:uppercase;
+    overflow:hidden;
   }
+  .inner-headings span{
+    position: relative;
+    color:rgb(0, 22, 84);
+    animation:animation 5s
+      ease infinite;
+  }
+  
+  @keyframes animation{
+    0%,
+    100%{
+      top:0;
+    }
+    30%{
+      top:0;
+    }
+    35%{
+      top:-150px;
+    }
+    65%{
+      top:-150px;
+    }
+    70%{
+      top:-300px;
+    }
+    90%{
+      top:-300px;
+    }
+  }
+
+
 
   h2{ 
     font-size: 1.5em;
     font-weight: bold;
     text-align:center;
-    color: green;
+    color: rgb(0, 22, 84);
   }
 
   .emphasized { font-style: italic; }
