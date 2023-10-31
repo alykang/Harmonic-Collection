@@ -51,13 +51,17 @@
 
 }
 .plants img {
-    --color: #8A9B0F; /* the border color */
-    --border: 10px;   /* the border thickness*/
-    --offset: 20px;   /* control the offset*/
-    --gap: 5px;       /* the gap on hover */
+    --color: #8A9B0F; 
+    --border: 10px;   
+    --offset: 20px;  
+    --gap: 5px;     
     width: 350px;
     height:450px;
     margin:50px;
+    display:inline-grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+
    
     
     --_c: var(--color) var(--border), #0000 0 calc(100% - var(--border)),var(--color) 0;
