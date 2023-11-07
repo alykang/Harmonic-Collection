@@ -1,0 +1,192 @@
+body{
+    background-color:#c7c9a3;
+}
+.page{
+    font-size:20em;
+    position:fixed;
+}
+.screen1{
+    height:80vh;
+    width:100vw;
+}
+.dot {
+    width: 30em;
+    position: absolute;
+    top: 10em;
+    left: 0em;
+    cursor: pointer;
+    transition: transform .2s;
+}
+.dot:hover {
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.5); 
+  }
+  #infographic-popup {
+    display: none;
+    position: absolute;
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+.dot2{
+    width: 35em;
+    position: absolute;
+    top:18em;
+    left: 19em;
+    cursor: pointer;
+    transition: transform .2s;
+}
+.dot2:hover {
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.5); 
+  }
+
+#infographic-popup2 {
+    display: none;
+    position: absolute;
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dot3{
+    width: 24em;
+    position: absolute;
+    top:5em;
+    right: 20em;
+    cursor: pointer;
+    transition: transform .2s;
+}
+.dot3:hover {
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.5); 
+  }
+  #infographic-popup3 {
+    display: none;
+    position: absolute;
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dot4{
+    width: 15em;
+    position: absolute;
+    top:9em;
+    right: 5em;
+    cursor: pointer;
+    transition: transform .2s;
+}
+.dot4:hover {
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.5); 
+  }
+  #infographic-popup4 {
+    display: none;
+    position: absolute;
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+.screen2{
+    height:100vh;
+    width:100vw;
+    position:relative;
+}
+.dot5{
+    width: 22em;
+    position: absolute;
+    top:0em;
+    left: 6em;
+    cursor: pointer;
+    transition: transform .2s;
+}
+.dot5:hover {
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.5); 
+  }
+  #infographic-popup5 {
+    display: none;
+    position: absolute;
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.dot6{
+    width: 21em;
+    position: absolute;
+    top:0em;
+    right: 6em;
+    cursor: pointer;
+    transition: transform .2s;
+}
+.dot6:hover {
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.5); 
+  }
+  #infographic-popup6 {
+    display: none;
+    position: absolute;
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.dot7{
+    width: 18em;
+    position: absolute;
+    top:8em;
+    right: 27em;
+    cursor: pointer;
+    transition: transform .2s;
+}
+.dot7:hover {
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.5); 
+  }
+  #infographic-popup7 {
+    display: none;
+    position: absolute;
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+.dot8{
+    width: 15em;
+    position: absolute;
+    top:20em;
+    left:27em;
+    cursor: pointer;
+    transition: transform .2s;
+}
+.dot8:hover {
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.5); 
+  }
+  #infographic-popup8 {
+    display: none;
+    position: absolute;
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
