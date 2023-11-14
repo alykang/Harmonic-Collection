@@ -1,212 +1,69 @@
 
 body{
-    background-color: rgb(208, 219, 203);
-    color: rgb(0, 22, 84);
-    padding:15px;
-    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(198, 222, 186);
+    font-family: 'Playfair Display';
+    color:rgb(4, 53, 0);
+    padding:50px;
 }
-ul{
+.part1{
+    position:relative;
+    width:100%;
+    height:100vh;
+}
+
+.fixed-element{
+    width:55vw;
+    position:fixed;
+    font-size:8rem;
+    width:40rem;
+}
+.part1 img{
+    width:35rem;
+    z-index:2;
+    position:absolute;
+    bottom:0;
+    left:20rem;
+    align-items: center;
+    justify-content:center;
     text-align: center;
 }
-html, body, .title {
-    height: 100%;
-}
 
-.outer-headings{
-    height:100%;
-    width:auto;
-    display:flex;
-    flex-direction:column;
-    justify-content:center;
-    align-items:left;
-}
-.outer-headings h1{
-    font-size:45px;
-}
-.inner-headings{
-    border:0px solid #ddd;
-    height:150px;
-    line-height:150px;
-    font-size:100px;
-    text-transform:uppercase;
-    overflow:hidden;
-  }
-  .inner-headings span{
-    position: relative;
-    color:rgb(0, 22, 84);
-    animation:animation 10s
-      ease infinite;
-  }
-  
-  @keyframes animation{
-    0%,
-    100%{
-      top:0;
-    }
-    20%{
-      top:0;
-    }
-    25%{
-      top:-150px;
-    }
-    45%{
-      top:-150px;
-    }
-    50%{
-      top:-300px;
-    }
-    70%{
-      top:-300px;
-    }
-    75%{
-      top:-450px;
-    }
-    95%{
-      top:-450px;
-    }
-  }
-  .down-arrow{
+.basic-care{
+    text-align:right;
+    width:35rem;
+    height:100vh;
     position:absolute;
-    width:45px;
-    bottom:20px;
-    right:20px;
-  }
-
-div.snakeplant1{
-    width: 700px;
-    height: auto;
-    float:right;
+    right:0;
+    top:0;
+    font-size:20px;
     justify-content:center;
     align-items:center;
+    padding-top:3rem;
 }
-.container{
-    width: 600px;
-    margin: 20px;
-    float:left;
+.basic-care p{
+    font-size:20px;
+    height:30rem;
 }
-
-.header-one{
-    font-family:'Times New Roman', Times, serif;
-    font-size: 70px;
-    text-align: left;
-}
-.origins{
-    font-family:'Times New Roman', Times, serif;
-    font-size: 20px;
-    text-align:left;
-}
-
 
 .part2{
-    clear:right;
-    margin-top: 50px;
-}
-.container2{
-    width: 600px;
-    margin: 20px;
-    float:right;
-}
-.header-two{
-    font-family:'Times New Roman', Times, serif;
-    font-size: 70px;
-    float:right;
-    text-align: right;
-}
-
-.watering{
-    font-family:'Times New Roman', Times, serif;
-    font-size: 20px;
-    text-align:right;
-}
-.tips{
-    font-family: 'Times New Roman', Times, serif;
-    text-align: left;
-    list-style-type: circle;
-    margin-top: 35px;
-    font-size:15px;
-}
-.snakeplant2{
-    width: 700px;
-    height: auto;
-    float:left;
-    justify-content:center;
+    position:relative;
+    height:100vh;
+    width:100vw;
+    font-size:10rem;
+    background-color: rgb(198, 222, 186);
+    z-index:3;
+    align-content:center;
+    justify-content: center;
     align-items:center;
-    margin-top:7%;
+    display:flex;
 }
 
-.variations{
-    width:100%;
-    height:500px;
-    clear:both;
-
+.part2 img{
+    width:25rem;
+    transition: transform .2s;
 }
-.variations-header{
-    font-family:'Times New Roman', Times, serif;
-    font-size: 70px;
-    text-align: center;
-    clear:both;
-}
-.carousel {
-    width: 500px; /* Set your desired carousel width */
-    height: 400px; /* Set your desired carousel height */
-    position: relative;
-    overflow: hidden;
-    left: 50%;
-    transform: translateX(-50%);
-}
-
-.slide {
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    align-items: center;
-    transition: opacity 0.5s ease-in-out; /* Fade effect transition */
-    opacity: 0; /* Initially hidden */
-}
-
-.slide img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover; /* Maintain aspect ratio and cover the carousel */
-}
-
-.caption {
-    background: rgba(0, 0, 0, 0.5); /* Caption background color with transparency */
-    color: white;
-    text-align: center;
-    padding: 5px;
-    font-size: 16px;
-    width: 100%;
-}
-
-/* Keyframes for automatic image change */
-@keyframes changeImage {
-    0%, 100% {
-        opacity: 0;
-    }
-    33.33% {
-        opacity: 1;
-    }
-    66.66% {
-        opacity: 0;
-    }
-}
-
-/* Apply the automatic image change animation to each slide */
-.carousel .slide:nth-child(1) {
-    animation: changeImage 15s infinite; /* Adjust animation duration and delay for 3 images */
-    animation-delay: 0s;
-}
-
-.carousel .slide:nth-child(2) {
-    animation: changeImage 15s infinite;
-    animation-delay: 5s; /* Delay the animation by 5 seconds for the second image */
-}
-
-.carousel .slide:nth-child(3) {
-    animation: changeImage 15s infinite;
-    animation-delay: 10s; /* Delay the animation by 10 seconds for the third image */
+.part2 img:hover {
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.5); 
 }

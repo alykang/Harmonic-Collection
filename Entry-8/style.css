@@ -190,3 +190,29 @@ body{
     padding: 10px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 }
+.screen3{
+    height:100vh;
+    width:100vw;
+    position: relative;
+}
+.dot9{
+    width: 20em;
+    position: absolute;
+    top:0;
+    left:5em;
+    cursor: pointer;
+    transition: transform .2s;
+}
+.dot9:hover {
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.5); 
+  }
+  #infographic-popup9 {
+    display: none;
+    position: absolute;
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}

@@ -130,3 +130,20 @@ function hideInfographic8(dot) {
     const popup = document.getElementById("infographic-popup8");
     popup.style.display = "none";
 }
+
+//inforgraphic 9//
+function showInfographic9(dot) {
+    const popup = document.getElementById("infographic-popup9");
+    popup.style.display = "block";
+
+    // Position the popup near the dot
+    const dotRect = dot.getBoundingClientRect();
+    const popupRect = popup.getBoundingClientRect();
+    popup.style.top = `${dotRect.top}px`;
+    popup.style.left = `${dotRect.left}px`;
+}
+
+function hideInfographic9(dot) {
+    const popup = document.getElementById("infographic-popup9");
+    popup.style.display = "none";
+}
