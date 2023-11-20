@@ -71,20 +71,22 @@ const questions = [
 const answers = [
     { 
         combination: ["Introvert", "City", "Movie night","Italy"],
-        text: "Monstera Deliciosa", 
+        text: "Monstera Deliciosa",
+        subtext:"Unique plants that are quite low-matinence but add beautiful elegance to the home", 
         image: "https://images.thdstatic.com/productImages/13d9b637-1054-434a-8bf6-36793aa5dbfa/svn/brighter-blooms-monstera-plants-mon-swi3-64_600.jpg",
         alt: "Monstera Deliciosa"
     },
     {
         combination: ["Extrovert", "Countryside","Out with friends", "Japan"],
-        text:"Philodendron Micans",
-        image: "https://theplantpoint.co.uk/cdn/shop/products/philodendronmicans2_800x.jpg?v=1658949696",
-        alt: "Philodendron Micans"
+        text:"Elephant's Ear",
+        subtext:"Beautiful and bold plants that are high matinence but very worth it!",
+        image: "https://sf.tac-cdn.net/images/v2/products/large/P-354.jpg?auto=webp&quality=70&width=490",
+        alt: "Elephant's Ear"
     },
     {
         combination: ["Ambivert", "Beach", "Studying at the library","Aruba"],
         text:"Parlor Palm",
-        subtext:"Reminiscent of a palm tree, a beachy plant that tolerates many different environments",
+        subtext:"Reminiscent of a palm tree, a beachy plant that thrives in many different environments",
         image: "https://cdn11.bigcommerce.com/s-2drwt2az/images/stencil/original/products/61287/137326/ppalm4newtb__75583.1676500381.jpg?c=2",
         alt: "Parlor Palm"
     }
@@ -181,7 +183,7 @@ const showAnswer = () => {
     answerImage.setAttribute('alt', result.alt)
 
 
-    answerBlock.append(answerTitle, answerImage)
+    answerBlock.append(answerTitle, answerSubtext, answerImage)
 
     answerDisplay.append(answerBlock)
 

@@ -61,10 +61,3 @@ h2{
     flex-wrap: wrap;
 }
 
-.p{
-    width:600px;
-    display:flex;
-    justify-content:center;
-    font-size:1rem;
-    flex-wrap: wrap;
-}
