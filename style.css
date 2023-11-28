@@ -1,10 +1,13 @@
+body{
+  background-color: rgb(4, 53, 0);
+}
 .cover{
     position:relative;
     height:100vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #286A3B;
+    background-color: rgb(4, 53, 0);
 }
 .cover img{
     height:98%;
@@ -28,7 +31,7 @@
 
 }
 .body2  {
-    background:#286A3B;
+    background:rgb(4, 53, 0);
     display: grid;
     height: 200vh;
     margin: 0;
@@ -44,7 +47,7 @@ h1{
     font-family:'Times New Roman', Times, serif;
     color:#ffd1f3;
     padding:150px;
-    background-color:#286A3B;
+    background-color:rgb(4, 53, 0);
     justify-self: center;
     text-align:center;
     align-self:center;
