@@ -8,6 +8,7 @@ body{
 section{
     width:600px;
     margin-top:20px;
+    justify-content: center;
 }
 
 h1{
@@ -27,8 +28,8 @@ h2{
 }
 
 .title-block{
-    width:600px;
-    height: 150px;
+    width:37rem;
+    height: 5rem;
     display:flex;
     justify-content:center;
     align-content: center;
@@ -42,6 +43,7 @@ h2{
     display:flex;
     justify-content: space-between;
     margin:16px 0 23px 0;
+    font-size: 1.5rem;
 }
 .answer-options:hover{
     cursor:pointer;
@@ -59,5 +61,6 @@ h2{
     justify-content:center;
     font-size:2rem;
     flex-wrap: wrap;
+    text-align:center;
 }
 

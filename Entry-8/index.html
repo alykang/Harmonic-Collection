@@ -1,15 +1,57 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>THE SNAKE PLANT</title>
+        <title>Medicinal Plants</title>
         <link rel="stylesheet" href="../style/reset.css">
         <link rel="stylesheet" href="./style.css">
+        <link href='https://fonts.googleapis.com/css?family=Playfair Display' rel='stylesheet'>
     </head>
 <body>
-    <script src="script.js"></script>
-    <div class="page">
-        Medicinal Plants 
+    <div class="nav-bar">
+        <input id="page-nav-toggle" class="main-navigation-toggle" type="checkbox" />
+<label for="page-nav-toggle">
+  <svg class="icon--menu-toggle" viewBox="0 0 60 30">
+    <g class="icon-group">
+      <g class="icon--menu">
+        <path d="M 6 0 L 54 0" />
+        <path d="M 6 15 L 54 15" />
+        <path d="M 6 30 L 54 30" />
+      </g>
+      <g class="icon--close">
+        <path d="M 15 0 L 45 30" />
+        <path d="M 15 30 L 45 0" />
+      </g>
+    </g>
+  </svg>
+</label>
+
+<nav class="main-navigation">
+  <ul>
+    <li><a href="../index.html">Home</a></li>
+    <li><a href="../Entry-2copy/index.html">Gallery</a></li>
+    <li><a href="../Entry-5/index.html">Blog</a></li>
+    <li><a href="../Quiz-home/index.html">Quiz</a></li>
+  </ul>
+</nav>
     </div>
+
+    <div class="dropdown">
+        <button onclick="myFunction()" class="dropbtn">Blog Posts</button>
+        <div id="myDropdown" class="dropdown-content">
+          <a href="../Entry-8/index.html">Medicinal Plants</a>
+          <a href="../Entry-7/index.html">My Plant Journal</a>
+          <a href="../Entry-5/index.html">Plants and Psychology</a>
+          <a href="../Entry-11/index.html">Propagation</a>
+        </div>
+    </div>
+
+    <div class="text">
+        <div class="page">
+            Medicinal Plants 
+        </div>
+    </div>
+  
+
 <div class="screen1">
     <div class="dot" onmouseover="showInfographic(this)" onmouseout="hideInfographic(this)">
         <img src="../Entry-8/images-folder/poppy.png">
@@ -119,4 +161,5 @@
         </p>
     </div>
 </div>
+<script src="script.js"></script>
 </body>

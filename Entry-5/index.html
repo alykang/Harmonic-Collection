@@ -1,18 +1,55 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>THE SNAKE PLANT</title>
+        <title>Plant Power</title>
         <link rel="stylesheet" href="../style/reset.css">
         <link rel="stylesheet" href="./style.css">
-        <script src="main.js"></script>
+        <link href='https://fonts.googleapis.com/css?family=Playfair Display' rel='stylesheet'>
     </head>
 <body>
-    <div class="title">
-        Plant Power
-        <div class="down-arrow">
-            <img src="https://static-00.iconduck.com/assets.00/down-arrow-icon-480x512-4enkcnra.png" alt="down-arrow">
-        </div>
+    <div class="dropdown">
+    <button onclick="myFunction()" class="dropbtn">Blog Posts</button>
+    <div id="myDropdown" class="dropdown-content">
+      <a href="../Entry-8/index.html">Medicinal Plants</a>
+      <a href="../Entry-7/index.html">My Plant Journal</a>
+      <a href="../Entry-5/index.html">Plant Power</a>
+      <a href="../Entry-11/index.html">Propagation</a>
     </div>
+
+        <div class="nav-bar">
+            <input id="page-nav-toggle" class="main-navigation-toggle" type="checkbox" />
+    <label for="page-nav-toggle">
+      <svg class="icon--menu-toggle" viewBox="0 0 60 30">
+        <g class="icon-group">
+          <g class="icon--menu">
+            <path d="M 6 0 L 54 0" />
+            <path d="M 6 15 L 54 15" />
+            <path d="M 6 30 L 54 30" />
+          </g>
+          <g class="icon--close">
+            <path d="M 15 0 L 45 30" />
+            <path d="M 15 30 L 45 0" />
+          </g>
+        </g>
+      </svg>
+    </label>
+    
+    <nav class="main-navigation">
+        <ul>
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="../Entry-2copy/index.html">Gallery</a></li>
+          <li><a href="../Entry-5/index.html">Blog</a></li>
+          <li><a href="../Quiz-home/index.html">Quiz</a></li>
+        </ul>
+      </nav>
+          </div>
+
+        <div class="title">
+                <div class="planttext">
+                    Plant Power
+                </div>
+        </div>
+
 <div class="intro-container">
     <div class="intro-text">
         There is an abundance of scientific evidence showing that indoor plants, and plants in general, have numerous psychological and physiological benefits for the body.
@@ -57,7 +94,7 @@
           <div class="carousel-inner">
             <img src="https://devx.work/blog/wp-content/uploads/2022/02/office-space-working-with-computers-office-equipment-3d-rendering-1-scaled.jpg" alt="Image 1">
             <img src="https://media.npr.org/assets/img/2020/04/23/gettyimages-656544055-fe4c8329eb06318947affe3906b7ca4f0a1252c6-s1100-c50.jpg" alt="Image 2">
-            <img src="https://startwell.co/wp-content/uploads/2021/10/StartWell-Meeting-Spaces_Penthouse_4B-11.jpg" alt="Image 3">
+            <img src="https://connectresource.com/wp-content/uploads/2018/09/Web-Brookfield-013.jpg" alt="Image 3">
           </div>
           <button class="carousel-prev">←</button>
           <button class="carousel-next">→</button>
@@ -79,6 +116,6 @@
     Which office do you like better? Why? How do you feel when you are around plants indoors and outdoors?
 </div>
 </div>
-
+<script src="main.js"></script>
 
 </body>
