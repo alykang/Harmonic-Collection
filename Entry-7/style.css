@@ -1,12 +1,11 @@
 body{
-    background-color:#286A3B;
+    background-color: rgb(4, 53, 0);
     font-family: 'Playfair Display';
 }
 
 .page{
     padding-left:140px;
     padding-right:140px;
-    background-color:#286A3B;
 }
 
 .journal{
@@ -259,7 +258,7 @@ h1 {
 }
 
 .icon--menu {
-  stroke: rgb(4, 53, 0);
+  stroke: rgb(198, 222, 186);
 }
 
 .icon--close {
@@ -378,7 +377,7 @@ h1 {
   }
   
   .dropbtn:hover, .dropbtn:focus {
-    color:rgb(4, 53, 0);
+    color: rgb(149, 187, 130);
   }
   
   .dropdown {

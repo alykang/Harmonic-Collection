@@ -55,18 +55,21 @@ const answers = [
     { 
         combination: ["Low light", "I will probably forget", "Yes, I have cats/dogs"],
         text: "Pepperomia Obtusifolia",
+        subtext:"The perfect low-level light and non-toxic plant for the forgetful owner!",
         image: "https://hortology.co.uk/cdn/shop/products/Peperomia-obtusifolia-Variegata-indoor-plant.jpg?v=1552723603",
         alt: "Pepperomia Obtusifolia"
     },
     {
         combination: ["Medium light", "I'll remember every once in a while","Yes, I have pets that are not cats/dogs"],
         text:"Calathea Rattlesnake",
+        subtext: "A great starter plant that thrives in medium light levels and is non-toxic!",
         image: "https://resources.ediblearrangements.com/resources/en-us/i/a/mwwp_Calathea_Rattlesnake.jpg",
         alt: "Calathea Rattlesnake"
     },
     {
         combination: ["Bright light", "I won't forget", "Nope, no pets"],
         text:"Bird of Paradise",
+        subtext: "This plant thrives in bright light and is perfect for the person who has no pets!",
         image: "https://www.shoppigment.com/cdn/shop/products/Bird_s-nest_Fern_5N8A3571_web_5a7aaad3-746c-46bb-a0e9-7a76b9326a77.jpg?v=1667937129",
         alt: "Bird of Paradise"
     }
@@ -153,14 +156,19 @@ const showAnswer = () => {
 
     const answerBlock = document.createElement('div')
     answerBlock.classList.add('result-block')
+
     const answerTitle = document.createElement('h3')
     answerTitle.textContent = result.text
+
+    const answerSubtext = document.createElement('h3');
+    answerSubtext.textContent = result.subtext
+
     const answerImage = document.createElement('img')
     answerImage.setAttribute('src', result.image)
     answerImage.setAttribute('alt', result.alt)
 
 
-    answerBlock.append(answerTitle, answerImage)
+    answerBlock.append(answerTitle, answerSubtext,answerImage)
 
     answerDisplay.append(answerBlock)
 
