@@ -2,7 +2,8 @@ body{
     background-color: rgb(198, 222, 186);
     font-family: 'Playfair Display';
     color:rgb(4, 53, 0);
-    padding:50px;
+    padding:3em;
+    font-size:1vw;
 }
 .part1{
     position:relative;
@@ -12,11 +13,10 @@ body{
 .fixed-element{
     width:55vw;
     position:fixed;
-    font-size:8rem;
-    width:40rem;
+    font-size:8em;
 }
 .part1 img{
-    width:30rem;
+    width:33vw;
     position:absolute;
     bottom:0rem;
     left:20rem;
@@ -27,19 +27,19 @@ body{
 
 .basic-care{
     text-align:right;
-    width:35rem;
+    width:37em;
     height:100vh;
     position:absolute;
     right:0;
     top:0;
-    font-size:20px;
     justify-content:center;
     align-items:center;
-    padding-top:3rem;
+    padding-top:3em;
 }
+
 .basic-care p{
-    font-size:20px;
-    height:30rem;
+    font-size:1.5em;
+    height:30em;
 }
 
 .part2{
@@ -55,7 +55,7 @@ body{
 }
 
 .part2 img{
-    width:25rem;
+    width:25em;
     transition: transform .2s;
 }
 .part2 img:hover {
