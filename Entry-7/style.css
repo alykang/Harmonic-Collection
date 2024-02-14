@@ -278,7 +278,7 @@ h1 {
   height: 100%;
   transform: translateX(-100%);
   transition: transform var(--nav-duration);
-  z-index: 1;
+  
   
   &:after {
     content: '';
@@ -296,6 +296,7 @@ h1 {
     font-size: 12vmin;
     font-family: var(--font-heading);
     width: 100%;
+    color:blue;
   }
   
   li {
@@ -327,7 +328,6 @@ h1 {
     line-height: 1;
     user-select: none;
     padding: var(--space) calc(var(--space) * 2) calc(var(--space) + var(--border-size) / 2);
-    transform: translateY(100%);
     font-size:5rem;
   }
 }

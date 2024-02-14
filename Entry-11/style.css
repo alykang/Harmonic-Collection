@@ -290,7 +290,6 @@ ol {
       text-decoration: none;
       user-select: none;
       padding: var(--space) calc(var(--space) * 2) calc(var(--space) + var(--border-size) / 2);
-      transform: translateY(100%);
     }
   }
   
